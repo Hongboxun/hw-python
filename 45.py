@@ -1,0 +1,10 @@
+a=int(input("輸入月份:"))
+b=int(input("輸入日期:"))
+c=["普通","吉","大吉"]
+s=(a*2+b)%3
+if(s==0):
+    print(c[0])
+elif(s==1):
+    print(c[1])
+elif(s==2):
+    print(c[2])        
